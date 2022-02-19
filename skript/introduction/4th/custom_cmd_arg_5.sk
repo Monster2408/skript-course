@@ -1,0 +1,4 @@
+command /plus <number> <number>: 
+	trigger: 
+		set {_temp} to arg-1 + arg-2
+		broadcast "%{_temp}%"

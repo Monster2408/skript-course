@@ -1,0 +1,2 @@
+on break: # ブロックを壊した時
+	cancel event 

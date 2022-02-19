@@ -143,7 +143,7 @@
         ],
         "Font": "けいふぉんと",
         "FontSize": {
-          "From": 87.99999999999997,
+          "From": 97.6,
           "To": 1.0,
           "AnimationType": "なし",
           "Span": 0.0
@@ -169,13 +169,13 @@
         "Italic": false,
         "IsDevidedPerCharacter": false,
         "X": {
-          "From": -17.5,
+          "From": 0.0,
           "To": 0.0,
           "AnimationType": "なし",
           "Span": 0.0
         },
         "Y": {
-          "From": -50.5,
+          "From": -71.5,
           "To": 0.0,
           "AnimationType": "なし",
           "Span": 0.0
@@ -219,7 +219,18 @@
         "Decorations": [
           {
             "Start": 0,
-            "Length": 3,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 1,
             "IsBold": false,
             "IsItalic": false,
             "Scale": 1.0,
@@ -231,7 +242,7 @@
         ],
         "Font": "けいふぉんと",
         "FontSize": {
-          "From": 87.99999999999997,
+          "From": 143.2000000000001,
           "To": 1.0,
           "AnimationType": "なし",
           "Span": 0.0
@@ -249,7 +260,7 @@
           "Span": 0.0
         },
         "DisplayInterval": 0.0,
-        "BasePoint": "CenterBottom",
+        "BasePoint": "CenterCenter",
         "FontColor": "#FFFFFFFF",
         "Style": "Normal",
         "StyleColor": "#FF000000",
@@ -257,13 +268,13 @@
         "Italic": false,
         "IsDevidedPerCharacter": false,
         "X": {
-          "From": -16.0,
+          "From": 0.0,
           "To": 0.0,
           "AnimationType": "なし",
           "Span": 0.0
         },
         "Y": {
-          "From": 142.0,
+          "From": 81.5,
           "To": 0.0,
           "AnimationType": "なし",
           "Span": 0.0

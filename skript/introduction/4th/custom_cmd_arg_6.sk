@@ -1,0 +1,17 @@
+command /plus <text> <text>: 
+	trigger: 
+		set {_temp1} to arg-1 parsed as number
+		set {_temp2} to arg-2 parsed as number
+		if {_temp1} is not set:
+			if {_temp2} is not set:
+				parse error is set
+				send "全引数が数字ではありません"
+			else:
+				send "第一引数が数字ではありません"
+		else:
+			if {_temp2} is not set:
+				parse error is set
+				send "第二引数が数字ではありません"
+			else:
+				add {_temp1} to {_temp2}
+				send "%{_temp2}%"

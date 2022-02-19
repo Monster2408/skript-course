@@ -1,0 +1,9 @@
+command /test [<text>] [<text>]: 
+	trigger: 
+		if arg-1 is set: # 第一引数有
+			if arg-2 is set: # 第二引数有
+				broadcast "%arg-1% %arg-2%"
+			else: # 第二引数無
+				broadcast arg-1
+		else: # 全引数無
+			broadcast "引数がありません。"

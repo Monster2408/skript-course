@@ -1,0 +1,3 @@
+command /test <text> <text>:
+	trigger: 
+		broadcast "%arg-1% %arg-2%"

@@ -1,0 +1,3 @@
+command /test:
+	trigger: # この直下に/testを実行した時の処理を記述する
+		broadcast "This is Test Command."

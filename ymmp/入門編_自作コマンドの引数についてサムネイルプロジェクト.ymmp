@@ -215,11 +215,22 @@
       },
       {
         "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
-        "Text": "イベントについて",
+        "Text": "自作コマンドの引数について",
         "Decorations": [
           {
             "Start": 0,
-            "Length": 8,
+            "Length": 7,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 7,
+            "Length": 6,
             "IsBold": false,
             "IsItalic": false,
             "Scale": 1.0,
@@ -231,7 +242,7 @@
         ],
         "Font": "けいふぉんと",
         "FontSize": {
-          "From": 80.79999999999995,
+          "From": 75.99999999999994,
           "To": 1.0,
           "AnimationType": "なし",
           "Span": 0.0

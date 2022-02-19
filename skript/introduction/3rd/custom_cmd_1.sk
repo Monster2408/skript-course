@@ -1,0 +1,8 @@
+command /test:
+	permission: skript.admin # ここで設定した権限を持つ者しか実行できない
+	description: This is Test Command. # コマンドの説明
+	executable by: players # 実行できる対象を指定します
+	aliases: /tes, /t # 短縮コマンドなどをここに記述する
+	usage: /test # コマンドの使い方をここに記述する
+	trigger: # この直下に/testを実行した時の処理を記述する
+		broadcast "This is Test Command."

@@ -1,0 +1,3 @@
+on break: # ブロックを壊した時
+	player's gamemode is not creative # プレイヤーのゲームモードがクリエイティブでない
+	cancel event 

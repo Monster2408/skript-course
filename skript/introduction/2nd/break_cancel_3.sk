@@ -1,0 +1,3 @@
+on break: # ブロックを壊した時
+	event-block is stone # 破壊したブロックが焼き石である
+	cancel event

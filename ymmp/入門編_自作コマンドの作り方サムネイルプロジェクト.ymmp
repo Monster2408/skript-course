@@ -215,11 +215,11 @@
       },
       {
         "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
-        "Text": "イベントについて",
+        "Text": "自作コマンドの作り方",
         "Decorations": [
           {
             "Start": 0,
-            "Length": 8,
+            "Length": 10,
             "IsBold": false,
             "IsItalic": false,
             "Scale": 1.0,
@@ -231,7 +231,7 @@
         ],
         "Font": "けいふぉんと",
         "FontSize": {
-          "From": 80.79999999999995,
+          "From": 75.99999999999994,
           "To": 1.0,
           "AnimationType": "なし",
           "Span": 0.0
